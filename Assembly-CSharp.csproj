@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MovementTransform.cs" />
     <Compile Include="Assets\Scripts\MemoryPool.cs" />
     <Compile Include="Assets\Scripts\WeaponAssaultRifle.cs" />
     <Compile Include="Assets\Scripts\CasingMemoryPool.cs" />
@@ -71,6 +72,8 @@
     <Compile Include="Assets\ExternalAssets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimatorController.cs" />
     <Compile Include="Assets\ExternalAssets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
+    <Compile Include="Assets\Scripts\EnemyProjectile.cs" />
+    <Compile Include="Assets\Scripts\EnemyFSM.cs" />
     <Compile Include="Assets\Scripts\WeaponSetting.cs" />
     <Compile Include="Assets\ExternalAssets\Low Poly FPS Pack - Free (Sample)\Components\Demo_Scene_Components\Scripts\TargetScript.cs" />
     <Compile Include="Assets\Scripts\Casing.cs" />
