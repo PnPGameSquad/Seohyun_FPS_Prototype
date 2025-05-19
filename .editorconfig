@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0612: 형식 또는 멤버는 사용되지 않습니다.
+dotnet_diagnostic.CS0612.severity = none
