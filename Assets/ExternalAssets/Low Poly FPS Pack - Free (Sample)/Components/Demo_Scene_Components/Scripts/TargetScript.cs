@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// ----- Low Poly FPS Pack Free Version -----
 public class TargetScript : MonoBehaviour {
 
 	float randomTime;
@@ -19,10 +20,6 @@ public class TargetScript : MonoBehaviour {
 	public AudioClip upSound;
 	public AudioClip downSound;
 
-	[Header("Animations")]
-	public AnimationClip targetUp;
-	public AnimationClip targetDown;
-
 	public AudioSource audioSource;
 	
 	private void Update () {
@@ -36,8 +33,7 @@ public class TargetScript : MonoBehaviour {
 			if (routineStarted == false) 
 			{
 				//Animate the target "down"
-				gameObject.GetComponent<Animation>().clip = targetDown;
-				gameObject.GetComponent<Animation>().Play();
+				gameObject.GetComponent<Animation> ().Play("target_down");
 
 				//Set the downSound as current sound, and play it
 				audioSource.GetComponent<AudioSource>().clip = downSound;
@@ -55,8 +51,7 @@ public class TargetScript : MonoBehaviour {
 		//Wait for random amount of time
 		yield return new WaitForSeconds(randomTime);
 		//Animate the target "up" 
-		gameObject.GetComponent<Animation>().clip = targetUp;
-		gameObject.GetComponent<Animation>().Play();
+		gameObject.GetComponent<Animation> ().Play ("target_up");
 
 		//Set the upSound as current sound, and play it
 		audioSource.GetComponent<AudioSource>().clip = upSound;
@@ -67,3 +62,4 @@ public class TargetScript : MonoBehaviour {
 		routineStarted = false;
 	}
 }
+// ----- Low Poly FPS Pack Free Version -----

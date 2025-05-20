@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// ----- Low Poly FPS Pack Free Version -----
 public class ExplosionScript : MonoBehaviour {
 
 	[Header("Customizable Options")]
@@ -42,3 +43,4 @@ public class ExplosionScript : MonoBehaviour {
 		Destroy (gameObject);
 	}
 }
+// ----- Low Poly FPS Pack Free Version -----

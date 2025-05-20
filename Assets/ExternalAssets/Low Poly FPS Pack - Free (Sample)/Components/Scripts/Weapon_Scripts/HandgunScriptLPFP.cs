@@ -389,7 +389,7 @@ public class HandgunScriptLPFP : MonoBehaviour {
 				Spawnpoints.bulletSpawnPoint.transform.rotation);
 
 			//Add velocity to the bullet
-			bullet.GetComponent<Rigidbody>().linearVelocity = 
+			bullet.GetComponent<Rigidbody>().velocity = 
 			bullet.transform.forward * bulletForce;
 
 			//Spawn casing prefab at spawnpoint

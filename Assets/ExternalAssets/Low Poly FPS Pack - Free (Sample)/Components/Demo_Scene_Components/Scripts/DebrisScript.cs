@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// ----- Low Poly FPS Pack Free Version -----
 public class DebrisScript : MonoBehaviour {
 
 	[Header("Audio")]
@@ -20,3 +21,4 @@ public class DebrisScript : MonoBehaviour {
 		}
 	}
 }
+// ----- Low Poly FPS Pack Free Version -----
